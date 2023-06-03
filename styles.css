@@ -2,12 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
   }
   body {
     font-family: "Outfit", sans-serif;
-    background-image: url("https://images3.alphacoders.com/109/1091500.jpg");
-    background-size: cover;
-    background-position: top center;
+    background-image: url(https://source.unsplash.com/1200x500/?Weather);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    overflow: hidden;      
   }
 
   .app-wrap {
@@ -46,12 +49,12 @@
   }
 
   main {
-    flex: 1 1 100%;
     padding: 25px 25px 50px;
-    display: flex;
+    display: grid;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin: 0 0 380px 0;
   }
   .location .city {
     color: #eeeeee;
